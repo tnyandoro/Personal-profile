@@ -36,6 +36,19 @@ li {
 
 h1 {
   font-size: 2.5em;
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+  flex-direction: 30px;
+  font-weight: 300px;
+}
+.hero-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
 }
 
 .hero-text {
@@ -44,7 +57,7 @@ h1 {
 
 .button {
   width: 150px;
-  height: 50px;
+  height: 45px;
   border-radius: 30px;
   background-color: rgb(228, 191, 29);
   text-align: center;
