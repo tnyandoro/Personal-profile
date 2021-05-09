@@ -1,0 +1,87 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+section {
+  height: 500px;
+  background-color: white;
+  border: solid black 1px;
+}
+
+.hero {
+  background-color: #da7b00;
+  background-image: url(./images/heroa.jpg);
+  height: 100vh;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600px;
+}
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+
+.button {
+  width: 150px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: rgb(114, 16, 131);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: gold;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+ padding-bottom: 200px;
+}
