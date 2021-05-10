@@ -9,8 +9,8 @@ section {
 }
 
 .hero {
-  background-color: #da7b00;
-  background-image: url(./images/heroa.jpg);
+  background-color: #242221;
+  background-image: url(./images/herob.jpg);
   height: 100vh;
   color: #fff;
   font-size: 20px;
@@ -22,6 +22,8 @@ footer {
 }
 
 nav {
+  background-color: rgb(114, 16, 131);
+  margin: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -41,7 +43,7 @@ li {
 
 h1 {
   font-size: 2.5em;
-  margin: 0px;
+  margin: 0;
 }
 
 p {
@@ -49,6 +51,7 @@ p {
   font-size: 30px;
   font-weight: 600px;
 }
+
 .hero-area {
   display: flex;
   height: 100%;
@@ -58,7 +61,7 @@ p {
 
 .hero-text {
   margin-left: 80px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .button {
@@ -83,10 +86,15 @@ p {
 }
 
 .socials {
-  padding-bottom: 200px;
+  align-items: center;
+  margin-right: 2em;
 }
 
 .logo {
   height: 60px;
-  margin: 30px;
+  margin: 0 30px 0 30px;
+}
+
+.social {
+  margin: 20px;
 }
