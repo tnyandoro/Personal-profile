@@ -3,8 +3,7 @@ body {
 }
 
 section {
-  background-color: white;
-  border: solid black 1px;
+  background-color: #fff;
 }
 
 .hero {
@@ -52,7 +51,12 @@ h2 {
 p {
   margin: 0;
   font-size: 20px;
-  font-weight: 600px;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .hero-area {
@@ -131,12 +135,16 @@ svg:hover {
 }
 
 .project-card {
-  width: 200px;
+  width: 300px;
   height: 500px;
-  box-shadow: 5px 5px 20px;
+  box-shadow: 5px 5px 20px rgb(221, 166, 226);
 }
 
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+
+.project-img {
+  width: 230px;
 }
