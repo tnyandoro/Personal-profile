@@ -3,7 +3,6 @@ body {
 }
 
 section {
-  height: 500px;
   background-color: white;
   border: solid black 1px;
 }
@@ -71,7 +70,7 @@ p {
 .button {
   width: 150px;
   height: 45px;
-  border: #fff solid ;
+  border: #fff solid;
   border-radius: 30px;
   background-color: rgb(114, 16, 131);
   text-align: center;
@@ -104,17 +103,28 @@ p {
   margin: 20px;
 }
 
-.social:hover {
-  fill: #e9496e;
+svg:hover {
+  fill: red;
 }
 
 .sub-section {
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  padding: 60px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
 }
 
 .headshot {
   width: 300px;
   border-radius: 50px;
+}
+
+.project-card {
+  width: 200px;
+  height: 500px;
+  border: 1px solid #000;
 }
