@@ -110,7 +110,14 @@ svg:hover {
 .sub-section {
   display: flex;
   justify-content: space-around;
-  padding: 60px;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
 }
 
 .headshot-container {
@@ -126,5 +133,10 @@ svg:hover {
 .project-card {
   width: 200px;
   height: 500px;
-  border: 1px solid #000;
+  box-shadow: 5px 5px 20px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
 }
